@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function(){
         .then(res => res.text())
         .then(data =>{
             result.innerHTML = data;
+            return result;
         })
         .catch(err => console.error(err));
 
