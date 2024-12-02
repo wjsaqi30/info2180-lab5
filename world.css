@@ -1,1 +1,8 @@
 /* Add your own styles */
+.controls {
+    position: fixed;
+}
+
+.lookup{
+    position:center;
+}
